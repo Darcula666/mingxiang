@@ -1,0 +1,25 @@
+.settings {
+  padding: 20px;
+}
+
+.settingsList {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.settingsItem {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsItem:last-child {
+  border-bottom: none;
+}
+
+.arrow {
+  color: #999;
+} 

@@ -1,0 +1,133 @@
+.courseDetail {
+  padding: 20px;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+}
+
+.favoriteButton.active {
+  color: #ffd700;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.duration, .level {
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.description {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.description h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.steps {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.steps h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.steps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.steps li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.steps li:last-child {
+  border-bottom: none;
+}
+
+.player {
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.progressBar {
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+.progress {
+  height: 100%;
+  background: #4CAF50;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.playButton {
+  width: 100%;
+  padding: 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+} 
